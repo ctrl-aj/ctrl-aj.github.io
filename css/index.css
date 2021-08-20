@@ -1,68 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
-
-* {
-    margin: 0px 0px 0px 0px;
-}
-
-body {
-    font-family: "Roboto",sans-serif;
-}
-
-#header {
-    font-size: 50%;
-    font-weight: 300;
-    background-color: #ffffaf;
-    color: #B1B5B5;
-    min-height: 150px;
-    height: 30%;
-}
-
-#header #header-logo #logo{
-    border-radius: 50%;
-    width: 60%;}
-
-#header #header-logo{
-    float:left;
-    margin-left: 10%;
-    border-radius: 50%;width: 10%;margin-top: 2%;
-}
-
-#header #links-container {
-    float:left;
-    margin-left: 0%;
-    border-radius: 50%;
-    margin-top: 3%;
-}
-
-#header-links {
-    border-bottom-style: solid;
-    padding-bottom: 5%;  
-    border-width: 2px;
-    border-color: black;
-}
-#header-games {
-    padding-top: 5%;  
-}
-
-
-#header a {
-    text-decoration: none;
-    font-size: 150%;
-    }
-
-#header a:hover {
-    color: #000000;
-}
-
-#center {
-    font-size: 100%;
-    background-color: #515A5A;
-    color: aliceblue;
-    height: 90%;
-    min-height: 600px;
-}
-
-#footer {
-    min-height: 150px;
-    height: 10%;
-}
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Set default styles for tab content */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Style each tab content individually */ 
+  #London {background-color:red;}
+  #Paris {background-color:green;}
+  #Tokyo {background-color:blue;}
+  #Oslo {background-color:orange;}
